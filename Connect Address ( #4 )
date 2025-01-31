@@ -1,0 +1,20 @@
+Privasea : Privanetix Testnet Node ( Konek node address & reward address )
+
+Link : https://deepsea-beta.privasea.ai/privanetixNode
+
+- Buka link diatas
+- Connect wallet EVM kalian , network Arbitrum Sepolia  ( EVM airdrop / pribadi untuk nerima faucet )
+- Ambil Faucetnya ( dua duanya ) , SC TPRAI di metamask : 0xe999b25Bc133C913b83D69aEC73ea47c1d451315
+- Buka menu My Privanetix Node
+- Klik Set one up now
+- Masukkan nama node kalian
+- Set Commission ( bebas mau berapa persen juga )
+- Paste address node kalian yang dari terminal tadi
+- Klik centang boxnya
+- Klik Set up my node
+- Done
+
+Staking ( lanjut di menu My Privanetix Node ) :
+- Klik Details
+- Stake TPRAI kalian ( bebas berapapun )
+- Done
