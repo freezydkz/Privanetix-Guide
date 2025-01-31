@@ -1,0 +1,23 @@
+Privasea : Privanetix Testnet Node ( Start Privasea Node, copas aja . ada yang dirubah tapi ikutin aja ) .
+
+Notes : PASTE SATU PERSATU DAN PELAN PELAN . JANGAN SEKALIGUS , KALO DAH BERES PROGRES BARU PASTE ! SAMBIL BACA DI FOTO YANG GW LAMPIRIN DIBAWAH .
+
+Start Nodenya :
+cd /privasea/
+# Run the compute node command:
+docker run  -d   -v "/privasea/config:/app/config" \
+  -e KEYSTORE_PASSWORD=123456( ganti dengan password kalian ) \
+  privasea/acceleration-node-beta:latest
+
+Nanti bakalan ada campuran huruf dan angka random di terminal kalian, contoh : eb723c38e3e6283f6c9d50512828408bd6df2fbba22d1991daa459778d3e73bc ( cek ss ) , copy aja tulisannya dan lanjut ke step dibawah .
+
+Cek node healthnya :
+docker logs -f ( paste disini tulisannya )
+
+Kalo ada tulisan kek gini berarti dah berhasil .
+
+read keystore info is ok
+read mgrNodeInfo info is ok
+calc service started successfully!!!
+
+- Done , selamat bernode ria
