@@ -1,0 +1,24 @@
+Privasea : Privanetix Testnet Node ( Install Privasea Node, copas aja . ada yang dirubah tapi ikutin aja ) .
+
+Notes : PASTE SATU PERSATU DAN PELAN PELAN . JANGAN SEKALIGUS , KALO DAH BERES PROGRES BARU PASTE ! SAMBIL BACA DI FOTO YANG GW LAMPIRIN DIBAWAH .
+
+Run Node as root user :
+sudo su
+mkdir -p  /privasea/config && cd  /privasea
+
+Buat Keystorenya :
+docker run -it -v "/privasea/config:/app/config"  \
+privasea/acceleration-node-beta:latest ./node-calc new_keystore
+
+Nanti disini kalian bakalan disuruh isi password, isi password sesuka kalian aja . Misalkan : ETRx2025 dan masukkan sekali lagi buat verif ( INGAT BAIK BAIK PASSWORDNYA )
+
+Nanti sesudah masukin password bakalan ada ,
+Node address sama node filename, copy node address kalian dan simpan dan di bagian node filename , copy bagian UTC-2025-01-28 sampe ke address kalian . Copy aja dulu .
+
+Rename keystore file :
+cd /privasea/config && ls
+mv ./ ( paste UTC-2025 yang diatas tadi disini , liat di ss kalo kurang jelas )  ./wallet_keystore 
+Contoh : mv ./UTC--2025-01-27T12-53-38.476936155Z--0c91e3af2323843fd87a6ac333a15dad4ab053f5 ./wallet_keystore ( Ini punya gw )
+
+Cek filenya udah berubah nama belum :
+ls ( kalo udah berubah, nanti yang nongol cuman wallet_keystore doang ) . Kalo disini gabisa ngetik apapun , klik CTRL + C aja ( KALO GABISA NGETIK YA ) .
