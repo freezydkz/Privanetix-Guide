@@ -1,2 +1,2 @@
-# Privanetix-Guide
-Tutorial Running Privanetix Node Bahasa Indonesia
+# Privanetix-Guide ( Bahasa Indonesia )
+Tutorial Running Privanetix Node Bahasa Indonesia ( Privasea )
