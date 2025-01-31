@@ -1,0 +1,20 @@
+Privasea : Privanetix Testnet Node ( Install Docker, copas aja . gaada yang perlu dirubah soalnya ) , PASTE SATU PERSATU DAN PELAN PELAN . JANGAN SEKALIGUS , KALO DAH BERES INSTALL BARU PASTE !
+
+Install Docker :
+sudo apt update && sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt update
+sudo apt install -y docker-ce
+
+Cek status Docker :
+sudo docker --version
+
+Kalo ada Docker version bla bla bla, build bla bla bla . Berarti dah berhasil itu  .
+
+Start Docker kalian :
+sudo systemctl start docker
+sudo systemctl enable docker
+
+Pull Docker Mirroring :
+docker pull privasea/acceleration-node-beta
